@@ -1,0 +1,10 @@
+--- a/backend/core/game/core/init.ts
++++ b/backend/core/game/core/init.ts
+@@ -52,7 +52,6 @@ export class OpenCardsInit implements IGameInitStrategy {
+       RoomModel,
+       this._gameResume
+     );
+-    return {} as IOpenCardsGame;
+   }
+ }
+ 
