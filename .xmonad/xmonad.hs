@@ -76,7 +76,7 @@ myTerminal :: String
 myTerminal = "kitty"    -- Sets default terminal
 
 myBrowser :: String
-myBrowser = "qutebrowser "  -- Sets qutebrowser as browser
+myBrowser = "brave "  -- Sets qutebrowser as browser
 
 myEmacs :: String
 myEmacs = "emacsclient -c -a 'emacs' "  -- Makes emacs keybindings easier to type
@@ -369,10 +369,16 @@ myKeys =
         , ("M-p r", spawn "dm-reddit")    -- reddio (a reddit viewer)
         , ("M-p s", spawn "dm-websearch") -- search various search engines
 
+        -- Pr0xy
+        , ("M-S-3", spawn "flameshot full -p ~/Screenshots") -- screenshots of fullscreen
+        , ("M-S-4", spawn "flameshot gui") -- screenshots of a specific place 
+        -- Pr0xy End
+
     -- KB_GROUP Useful programs to have a keybinding for launch
+        -- Pr0xy
         , ("M-<Return>", spawn (myTerminal))
-        , ("M-b", spawn (myBrowser ++ " www.youtube.com/c/DistroTube/"))
-        , ("M-M1-h", spawn (myTerminal ++ " -e htop"))
+        , ("M-b", spawn (myBrowser ++ " https://github.com/Zoovi"))
+        -- Pr0xy End
 
     -- KB_GROUP Kill windows
         , ("M-S-c", kill1)     -- Kill the currently focused client

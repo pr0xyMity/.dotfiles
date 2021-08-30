@@ -123,15 +123,16 @@ fi
 ## ALIASES
 alias v='nvim'
 alias vim='nvim'
-alias sf="cd ~/vue-storefront"
-alias sfa="cd ~/vue-storefront-api"
-alias da='.bin/stop_vsf.py'
-alias sa='.bin/start_vsf.py'
-alias dcud='docker-compose up -d'
-alias ware='cd ~/shopware-pwa'
-alias wared='cd ~/shopware-pwa/packages/default-theme'
-alias ywa='wared && yarn dev'
-alias jtags='ctags -R app config lib && sed -i ‘’ -E ‘/^(if|switch|function|module\.exports|it|describe).+language:js$/d’ tags'
+alias audio='pacmixer'
+
+## Alias for connection
+alias sn='nmcli device wifi list'
+alias hosts='sudo vim ~/etc/hosts'
+
+alias sb='bluetoothctl devices'
+alias cbb='bluetoothctl connect 60:AB:D2:46:E5:6F'
+alias dbb='bluetoothctl disconnect 60:AB:D2:46:E5:6F'
+
 
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
