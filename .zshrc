@@ -131,7 +131,7 @@ alias nc='f() { nmcli device wifi connect $1 password $2 };f'
 
 alias bs='bluetoothctl devices'
 
-alias hosts='vim ~/etc/hosts'
+alias hosts='vim /etc/hosts'
 
 alias bbc='bluetoothctl connect 60:AB:D2:46:E5:6F'
 alias bbd='bluetoothctl disconnect 60:AB:D2:46:E5:6F'
