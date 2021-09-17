@@ -90,7 +90,9 @@ plugins=(
   web-search
   fzf
   z
+  tmux
 )
+
 
 source $ZSH/oh-my-zsh.sh
 
@@ -129,9 +131,13 @@ alias audio='pacmixer'
 alias ns='nmcli device wifi list'
 alias nc='f() { nmcli device wifi connect $1 password $2 };f'
 
-alias bs='bluetoothctl devices'
+alias lg='lazygit'
+alias r='ranger'
 
 alias hosts='vim /etc/hosts'
+
+alias bp='bluetoothctl power on'
+alias bs='bluetoothctl scan on'
 
 alias bbc='bluetoothctl connect 60:AB:D2:46:E5:6F'
 alias bbd='bluetoothctl disconnect 60:AB:D2:46:E5:6F'
@@ -153,5 +159,3 @@ export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 export TMPDIR="/tmp"
-alias lg='lazygit'
-alias lg='lazygit'
