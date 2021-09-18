@@ -142,6 +142,8 @@ alias bs='bluetoothctl scan on'
 alias bbc='bluetoothctl connect 60:AB:D2:46:E5:6F'
 alias bbd='bluetoothctl disconnect 60:AB:D2:46:E5:6F'
 
+alias btc='bluetoothctl connect EC:2C:E2:F0:38:B7'
+alias btd='bluetoothctl disconnect EC:2C:E2:F0:38:B7'
 
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
