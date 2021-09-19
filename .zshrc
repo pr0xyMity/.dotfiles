@@ -134,6 +134,9 @@ alias nc='f() { nmcli device wifi connect $1 password $2 };f'
 alias lg='lazygit'
 alias r='ranger'
 
+alias power='halt -p'
+alias pinu='systemctl suspend'
+
 alias hosts='vim /etc/hosts'
 
 alias bp='bluetoothctl power on'
