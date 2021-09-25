@@ -135,7 +135,7 @@ alias lg='lazygit'
 alias r='ranger'
 
 alias power='halt -p'
-alias pinu='systemctl suspend'
+alias piniu='systemctl suspend'
 
 alias hosts='vim /etc/hosts'
 
