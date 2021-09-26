@@ -147,18 +147,12 @@ spawnSelected' lst = gridselect conf lst >>= flip whenJust spawn
                    , gs_font         = myFont
                    }
 
-myAppGrid = [ ("Audacity", "audacity")
-                 , ("Deadbeef", "deadbeef")
-                 , ("Emacs", "emacsclient -c -a emacs")
+myAppGrid = [ ("Signal", "signal")
+                 , ("Discord", "discord")
+                 , ("Slack", "slack")
                  , ("Firefox", "firefox")
-                 , ("Geany", "geany")
-                 , ("Geary", "geary")
-                 , ("Gimp", "gimp")
-                 , ("Kdenlive", "kdenlive")
-                 , ("LibreOffice Impress", "loimpress")
-                 , ("LibreOffice Writer", "lowriter")
-                 , ("OBS", "obs")
-                 , ("PCManFM", "pcmanfm")
+                 , ("MongoCompas", "mongodb-compass")
+                 , ("Spotify", "spotify")
                  ]
 
 myScratchPads :: [NamedScratchpad]
@@ -403,7 +397,7 @@ myKeys =
         , ("C-M1-l", incScreenSpacing 4)         -- Increase screen spacing
 
     -- KB_GROUP Grid Select (CTR-g followed by a key)
-        , ("C-g g", spawnSelected' myAppGrid)                 -- grid select favorite apps
+        , ("M-g", spawnSelected' myAppGrid)                 -- grid select favorite apps
         , ("C-g t", goToSelected $ mygridConfig myColorizer)  -- goto selected window
         , ("C-g b", bringSelected $ mygridConfig myColorizer) -- bring selected window
 
