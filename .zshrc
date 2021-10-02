@@ -84,7 +84,6 @@ plugins=(
   zsh-syntax-highlighting
   zsh-autosuggestions
   archlinux
-  django
   docker
   python
   web-search
