@@ -80,7 +80,7 @@ vim.opt.splitbelow = true -- force all horizontal splits to go below current win
 vim.opt.splitright = true -- force all vertical splits to go to the right of current window
 vim.opt.swapfile = false -- creates a swapfile
 vim.opt.termguicolors = true -- set term gui colors (most terminals support this)
-vim.opt.timeoutlen = 100 -- time to wait for a mapped sequence to complete (in milliseconds)
+vim.opt.timeoutlen = 240 -- time to wait for a mapped sequence to complete (in milliseconds)
 vim.opt.title = true -- set the title of window to the value of the titlestring
 vim.opt.titlestring = "%<%F%=%l/%L - nvim" -- what the title of the window will be set to
 vim.opt.undodir = vim.fn.stdpath "cache" .. "/undo"
@@ -165,6 +165,7 @@ lvim.builtin.which_key.mappings = {
       ["c"] = { "<cmd>w!<CR>", "Save" },
       ["q"] = { "<cmd>q!<CR>", "Quit" },
       ["/"] = { "<cmd>CommentToggle<CR>", "Comment" },
+      ["e"] = { "<cmd>NvimTreeToggle<CR>", "Explorer" },
       ["w"] = { "<cmd>BufferClose!<CR>", "Close Buffer" },
       ["f"] = { "<cmd>Telescope git_files<CR>", "Find File" },
       ["hl"] = { "<cmd>nohlsearch<CR>", "No Highlight" },
