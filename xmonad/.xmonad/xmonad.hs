@@ -65,6 +65,7 @@ import XMonad.Util.EZConfig (additionalKeysP)
 import XMonad.Util.NamedScratchpad
 import XMonad.Util.Run (runProcessWithInput, safeSpawn, spawnPipe)
 import XMonad.Util.SpawnOnce
+import XMonad.Actions.SpawnOn
 
 myFont :: String
 myFont = "xft:SauceCodePro Nerd Font Mono:regular:size=9:antialias=true:hinting=true"
@@ -99,12 +100,13 @@ windowCount = gets $ Just . show . length . W.integrate' . W.stack . W.workspace
 
 myStartupHook :: X ()
 myStartupHook = do
-    spawnOnce "lxsession &"
     -- spawnOnce "picom &"
     -- spawnOnce "nm-applet &"
     -- spawnOnce "volumeicon &"
     -- spawnOnce "conky -c $HOME/.config/conky/xmonad.conkyrc"
+
     -- spawnOnce "compton $HOME/.config/compton/xmonad.conkyrc"
+
     -- spawnOnce "trayer --edge top --align right --widthtype request --padding 6 --SetDockType true --SetPartialStrut true --expand true --monitor 1 --transparent true --alpha 0 --tint 0x282c34  --height 22 &"
     -- spawnOnce "/usr/bin/emacs --daemon &" -- emacs daemon for the emacsclient
     -- spawnOnce "kak -d -s mysession &"  -- kakoune daemon for better performance
@@ -114,8 +116,19 @@ myStartupHook = do
     -- spawnOnce "find ~/wallpapers/ -type f | shuf -n 1 | xargs xwallpaper --stretch"  -- set random xwallpaper
     -- spawnOnce "~/.fehbg &"  -- set last saved feh wallpaper
     -- spawnOnce "feh --randomize --bg-fill ~/wallpapers/*"  -- feh set random wallpaper
-    spawnOnce "nitrogen --restore &"   -- if you prefer nitrogen to feh
     setWMName "LG3D"
+
+    spawnOnce "lxsession &"
+    spawnOnce "nitrogen --restore &"   -- if you prefer nitrogen to feh
+
+    spawnOnce "brave-browser"
+    spawnOnce "kitty"
+
+    spawnOnce "discord"
+    spawnOnce "signal-desktop"
+    spawnOnce "slack"
+
+    spawnOnce "1password"
 
 myColorizer :: Window -> Bool -> X (String, String)
 myColorizer = colorRangeFromClassName
@@ -302,7 +315,7 @@ myLayoutHook = avoidStruts $ mouseResize $ windowArrange $ T.toggleLayouts float
                                  ||| wideAccordion
 
 -- myWorkspaces = [" 1 ", " 2 ", " 3 ", " 4 ", " 5 ", " 6 ", " 7 ", " 8 ", " 9 "]
-myWorkspaces = [" www ", " dev ", " sys ", " chat ", " mus ", " pass ", " docs ", " 8 ", " 9 "]
+myWorkspaces = [" www ", " dev ", " sys ", " chat ", " mus ", " pass ", " docs ", " games ", " 9 "]
 myWorkspaceIndices = M.fromList $ zipWith (,) myWorkspaces [1..] -- (,) == \x y -> (x,y)
 
 clickable ws = "<action=xdotool key super+"++show i++">"++ws++"</action>"
@@ -325,12 +338,24 @@ myManageHook = composeAll
      , className =? "splash"          --> doFloat
      , className =? "toolbar"         --> doFloat
      , className =? "Yad"             --> doCenterFloat
+
      , title =? "Oracle VM VirtualBox Manager"  --> doFloat
      , title =? "Mozilla Firefox"     --> doShift ( myWorkspaces !! 1 )
-     , className =? "brave-browser"   --> doShift ( myWorkspaces !! 1 )
+
+     , className =? "brave-browser"     --> doShift ( myWorkspaces !! 0 )
+     , className =? "Brave-browser"     --> doShift ( myWorkspaces !! 0 )
+     , className =? "kitty"             --> doShift ( myWorkspaces !! 1 )
+
+     , className =? "signal-desktop"   --> doShift ( myWorkspaces !! 3 )
+     , className =? "Slack"   --> doShift ( myWorkspaces !! 3 )
+     , className =? "discord"   --> doShift ( myWorkspaces !! 3 )
+
+     , className =? "1Password"   --> doShift ( myWorkspaces !! 5 )
+
      , className =? "qutebrowser"     --> doShift ( myWorkspaces !! 1 )
      , className =? "mpv"             --> doShift ( myWorkspaces !! 7 )
      , className =? "Gimp"            --> doShift ( myWorkspaces !! 8 )
+
      , className =? "VirtualBox Manager" --> doShift  ( myWorkspaces !! 4 )
      , (className =? "firefox" <&&> resource =? "Dialog") --> doFloat  -- Float Firefox Dialog
      , isFullscreen -->  doFullFloat
