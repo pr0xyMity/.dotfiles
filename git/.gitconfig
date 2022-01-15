@@ -1,3 +1,5 @@
 [user]
 	email = konrad.trade@gmail.com
 	name = Konrad Barrek (Pr0xy)
+[core]
+	editor = vi

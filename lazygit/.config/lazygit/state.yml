@@ -1,9 +1,11 @@
 lastupdatecheck: 0
 recentrepos:
 - /home/konrad/Project/.dotfiles
+- /home/konrad/Project/hfngg-application
 - /home/konrad/Project/hfngg-stub-web-app
 - /home/konrad/Project/zoovi
 - /oldArch/home/konrad/Projects/zoovi
 startuppopupversion: 5
-customcommandshistory: []
+customcommandshistory:
+- q
 hidecommandlog: false
