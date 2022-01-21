@@ -8,8 +8,10 @@
 (package! vue-mode)
 (package! web-mode)
 (package! lsp-mode)
-
 (package! tide)
+(package! eslint-fix)
+
+;;(package! prettier-js)
 
 ;; To install SOME-PACKAGE from MELPA, ELPA or emacsmirror:
 ;(package! some-package)
