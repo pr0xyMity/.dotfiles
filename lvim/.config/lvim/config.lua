@@ -20,7 +20,8 @@ lvim.plugins = {
     "prettier/vim-prettier",
     run = 'yarn install',
   },
-  {"tpope/vim-surround"}
+  {"tpope/vim-surround"},
+  {'eslint/eslint'}
 }
 
 
