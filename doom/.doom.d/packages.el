@@ -5,7 +5,6 @@
 ;; on the command line, then restart Emacs for the changes to take effect -- or
 ;; use 'M-x doom/reload'.
 
-;;(package! vue-mode)
 (package! web-mode)
 (package! lsp-mode)
 (package! company-mode)
