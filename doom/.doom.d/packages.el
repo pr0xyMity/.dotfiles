@@ -8,8 +8,10 @@
 (package! vue-mode)
 (package! web-mode)
 (package! lsp-mode)
-(package! tide)
+(package! company-mode)
+(package! company-lsp)
 (package! eslint-fix)
+(package! tide)
 
 ;;(package! prettier-js)
 
