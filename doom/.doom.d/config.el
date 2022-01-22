@@ -8,6 +8,13 @@
 (setq company-lsp-cache-candidates t)
 
 ;; Tide
+(use-package tide
+  :ensure t
+  :after (typescript-mode company flycheck)
+  :hook ((typescript-mode . tide-setup)
+         (typescript-mode . tide-hl-identifier-mode)
+         (before-save . tide-format-before-save)))
+
 (defun setup-tide-mode ()
   (interactive)
   (tide-setup)
@@ -32,6 +39,7 @@
 
 ;; Vue eslint trigger
 (eval-after-load 'js-mode'(add-hook 'js-mode-hook (lambda () (add-hook 'after-save-hook 'eslint-fix nil t))))
+
 
 ;; Some functionality uses this to identify you, e.g. GPG configuration, email
 ;; clients, file templates and snippets.

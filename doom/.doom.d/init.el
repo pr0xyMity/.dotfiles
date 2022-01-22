@@ -176,7 +176,7 @@
        ;;yaml              ; JSON, but readable
        ;;zig               ; C, but simpler
        (web +lsp)
-       (javascript +lsp)
+       (javascript)
 
        :email
        ;;(mu4e +org +gmail)
