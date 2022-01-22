@@ -5,13 +5,17 @@
 ;; on the command line, then restart Emacs for the changes to take effect -- or
 ;; use 'M-x doom/reload'.
 
-(package! vue-mode)
+;;(package! vue-mode)
 (package! web-mode)
 (package! lsp-mode)
 (package! company-mode)
 (package! company-lsp)
 (package! eslint-fix)
 (package! tide)
+(package! mmm-mode)
+(package! tree-sitter)
+(package! tree-sitter-langs)
+
 
 ;;(package! prettier-js)
 

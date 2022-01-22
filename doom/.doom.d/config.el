@@ -35,10 +35,21 @@
 (add-hook 'typescript-mode-hook #'setup-tide-mode)
 
 ;; Gulpy
-(remove-hook 'typescript-mode-local-vars-hook #'lsp!)
+;;(remove-hook 'typescript-mode-local-vars-hook #'lsp!)
 
 ;; Vue eslint trigger
 (eval-after-load 'js-mode'(add-hook 'js-mode-hook (lambda () (add-hook 'after-save-hook 'eslint-fix nil t))))
+(eval-after-load 'js2-mode'(add-hook 'js2-mode-hook (lambda () (add-hook 'after-save-hook 'eslint-fix nil t))))
+
+;; Vue mode
+;;  (setq vue-mode-packages
+;;   '(vue-mode))
+
+;; (setq vue-mode-excluded-packages '())
+
+;; (defun vue-mode/init-vue-mode ()
+;;   "Initialize my package"
+;;   (use-package vue-mode))
 
 
 ;; Some functionality uses this to identify you, e.g. GPG configuration, email
