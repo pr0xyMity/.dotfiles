@@ -100,7 +100,7 @@ windowCount = gets $ Just . show . length . W.integrate' . W.stack . W.workspace
 
 myStartupHook :: X ()
 myStartupHook = do
-    -- spawnOnce "picom &"
+    spawnOnce "picom &"
     -- spawnOnce "nm-applet &"
     -- spawnOnce "volumeicon &"
     -- spawnOnce "conky -c $HOME/.config/conky/xmonad.conkyrc"
@@ -108,7 +108,7 @@ myStartupHook = do
     -- spawnOnce "compton $HOME/.config/compton/xmonad.conkyrc"
 
     -- spawnOnce "trayer --edge top --align right --widthtype request --padding 6 --SetDockType true --SetPartialStrut true --expand true --monitor 1 --transparent true --alpha 0 --tint 0x282c34  --height 22 &"
-    -- spawnOnce "/usr/bin/emacs --daemon &" -- emacs daemon for the emacsclient
+    spawnOnce "/usr/bin/emacs --daemon &" -- emacs daemon for the emacsclient
     -- spawnOnce "kak -d -s mysession &"  -- kakoune daemon for better performance
     -- spawnOnce "urxvtd -q -o -f &"      -- urxvt daemon for better performance
 
@@ -123,6 +123,7 @@ myStartupHook = do
 
     spawnOnce "brave-browser"
     spawnOnce "kitty"
+    spawnOnce "emacs"
 
     spawnOnce "discord"
     spawnOnce "signal-desktop"
@@ -344,7 +345,8 @@ myManageHook = composeAll
 
      , className =? "brave-browser"     --> doShift ( myWorkspaces !! 0 )
      , className =? "Brave-browser"     --> doShift ( myWorkspaces !! 0 )
-     , className =? "kitty"             --> doShift ( myWorkspaces !! 1 )
+     , className =? "kitty"             --> doShift ( myWorkspaces !! 2 )
+     , className =? "emacs"             --> doShift ( myWorkspaces !! 1 )
 
      , className =? "signal-desktop"   --> doShift ( myWorkspaces !! 3 )
      , className =? "Slack"   --> doShift ( myWorkspaces !! 3 )
