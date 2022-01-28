@@ -14,6 +14,7 @@
 (package! mmm-mode)
 (package! tree-sitter)
 (package! tree-sitter-langs)
+(package! org-roam)
 
 
 ;;(package! prettier-js)
