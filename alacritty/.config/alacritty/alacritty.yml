@@ -4,7 +4,7 @@ window:
   opacity: 0.85
   padding:
     x: 18
-    y: 16
+    y: 20
   dynamic_padding: false
   decorations: buttonless
 
@@ -13,4 +13,3 @@ font:
     family: "SFMono Nerd Font"
     style: Regular
   size: 22.0
-  use_thin_strokes: true
