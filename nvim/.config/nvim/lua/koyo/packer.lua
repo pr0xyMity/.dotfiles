@@ -17,7 +17,6 @@ return require('packer').startup(function(use)
     }
 
     use { "catppuccin/nvim", as = "catppuccin" }
-    vim.cmd.colorscheme "catppuccin"
 
     use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' })
 
@@ -51,8 +50,6 @@ return require('packer').startup(function(use)
         }
     }
 
-    use({ 'rose-pine/neovim', as = 'rose-pine' })
-    vim.cmd('colorscheme rose-pine')
 
     use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' })
 
@@ -92,4 +89,5 @@ return require('packer').startup(function(use)
         "nvim-lua/plenary.nvim",
     },
 })
+
 end)
