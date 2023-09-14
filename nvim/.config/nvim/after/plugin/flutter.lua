@@ -5,3 +5,7 @@ require("flutter-tools").setup {
     enabled = true -- set to false to disable
   },
 } -- use defaults
+
+vim.keymap.set("n", "<leader>d", "<cmd> FlutterDevices<CR>")
+vim.keymap.set("n", "<leader>r", "<cmd> FlutterRestart<CR>")
+vim.keymap.set("n", "<leader>q", "<cmd> FlutterQuit<CR>")
