@@ -1,0 +1,488 @@
+ERR 2023-08-15T07:28:55.884 ?.76805    terminfo_start:367: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-08-15T07:28:55.885 ?.76805    flush_buf:2235: uv_write failed: bad file descriptor
+ERR 2023-08-15T07:28:55.886 ?.76805    flush_buf:2235: uv_write failed: bad file descriptor
+ERR 2023-08-15T07:28:55.887 ?.76805    flush_buf:2235: uv_write failed: bad file descriptor
+ERR 2023-08-28T15:41:27.910 ?.64194    terminfo_start:367: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-08-28T15:41:27.910 ?.64194    flush_buf:2235: uv_write failed: bad file descriptor
+ERR 2023-08-28T15:41:27.911 ?.64194    flush_buf:2235: uv_write failed: bad file descriptor
+ERR 2023-08-28T15:41:27.911 ?.64194    flush_buf:2235: uv_write failed: bad file descriptor
+ERR 2023-09-09T19:31:37.182 nvim.85662.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.1/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 318 for language c
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.1/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....1/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....1/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:202: in function 'get_query'
+	....1/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:228: in function 'fn'
+	...1/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:341: in function 'for_each_tree'
+	....1/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	....1/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <....1/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-09-09T19:31:42.511 nvim.85662.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.1/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 318 for language c
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.1/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....1/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....1/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:202: in function 'get_query'
+	....1/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:228: in function 'fn'
+	...1/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:341: in function 'for_each_tree'
+	....1/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	....1/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <....1/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-09-09T19:31:44.192 nvim.85662.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.1/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 318 for language c
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.1/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....1/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....1/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:202: in function 'get_query'
+	....1/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:228: in function 'fn'
+	...1/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:341: in function 'for_each_tree'
+	....1/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	....1/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <....1/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-09-11T20:30:37.000 nvim.52318.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.1/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 318 for language c
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.1/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....1/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....1/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:202: in function 'get_query'
+	....1/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:228: in function 'fn'
+	...1/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:341: in function 'for_each_tree'
+	....1/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:214: in function 'on_line_impl'
+	....1/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:290: in function <....1/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:284>
+ERR 2023-09-12T08:36:22.210 ?.39677    terminfo_start:367: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-09-12T08:36:22.211 ?.39677    flush_buf:2235: uv_write failed: bad file descriptor
+ERR 2023-09-12T08:36:22.212 ?.39677    flush_buf:2235: uv_write failed: bad file descriptor
+ERR 2023-09-12T08:36:22.214 ?.39677    flush_buf:2235: uv_write failed: bad file descriptor
+ERR 2023-09-12T08:36:22.215 ?.39677    flush_buf:2235: uv_write failed: bad file descriptor
+ERR 2023-11-10T08:24:40.752 ?.32777    terminfo_start:367: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-11-10T08:24:40.752 ?.27760    terminfo_start:367: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-11-10T08:24:40.753 ?.32777    flush_buf:2235: uv_write failed: bad file descriptor
+ERR 2023-11-10T08:24:40.753 ?.27760    flush_buf:2235: uv_write failed: bad file descriptor
+ERR 2023-11-10T08:24:40.754 ?.32777    flush_buf:2235: uv_write failed: bad file descriptor
+ERR 2023-11-10T08:24:40.754 ?.27760    flush_buf:2235: uv_write failed: bad file descriptor
+ERR 2023-11-10T08:24:40.755 ?.32777    flush_buf:2235: uv_write failed: bad file descriptor
+ERR 2023-11-10T08:24:40.755 ?.27760    flush_buf:2235: uv_write failed: bad file descriptor
+ERR 2023-11-10T08:24:40.756 ?.27760    flush_buf:2235: uv_write failed: bad file descriptor
+ERR 2023-11-23T12:32:34.036 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:32:34.088 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:32:36.049 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:32:36.067 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:32:36.100 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:32:36.160 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:32:36.572 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:32:36.737 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:32:36.887 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:32:37.026 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:32:37.153 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:32:37.335 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:32:37.469 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:32:37.549 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:32:37.679 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:32:38.127 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:32:40.512 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:32:40.563 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:32:42.445 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:32:43.287 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:32:43.325 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:32:43.337 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:32:43.412 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:32:43.864 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:32:44.079 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:32:45.361 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:32:45.892 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:32:46.570 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:32:49.029 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:32:49.069 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:32:49.787 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:32:49.993 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:32:50.061 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:32:50.170 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:32:50.716 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:32:51.708 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:32:52.351 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:32:52.734 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:32:53.094 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:32:53.369 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:32:53.389 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:32:54.214 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:32:54.991 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:32:55.410 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:32:55.871 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:32:55.932 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:32:56.040 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:32:56.531 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:32:57.524 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:32:57.758 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:32:58.391 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:32:58.949 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:33:01.104 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:33:01.636 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:33:01.657 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:33:03.150 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:33:03.204 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:33:03.387 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:33:04.661 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:33:06.490 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:33:06.551 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:33:07.716 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:33:16.328 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:33:16.438 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:33:18.209 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:33:18.260 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:42:04.334 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:42:04.338 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:42:05.719 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:42:05.783 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>
+ERR 2023-11-23T12:42:05.882 nvim.7059.0 decor_provider_invoke:47: error in provider vim_lsp_semantic_tokens:win: Error executing lua: ...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: Invalid 'end_col': out of range
+stack traceback:
+	[C]: in function 'nvim_buf_set_extmark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:450: in function 'set_mark'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:466: in function 'on_win'
+	...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:789: in function <...0.9.1/share/nvim/runtime/lua/vim/lsp/semantic_tokens.lua:786>

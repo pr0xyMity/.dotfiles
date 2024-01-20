@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/Users/konrad/Projects/blp/docuclerk-app-blp/src/web2/domains/main'
+let g:netrw_dirhist_7='/Users/konrad/Projects/blp/docuclerk-app-blp/src/web2/domains/main/domains/organizations/coroutines'
+let g:netrw_dirhist_6='/Users/konrad/Projects/blp/docuclerk-app-blp'
+let g:netrw_dirhist_5='/Users/konrad/Projects/blp/docuclerk-app-blp/src/components2/organisms/the_timer'
+let g:netrw_dirhist_4='/Users/konrad/Projects/blp/docuclerk-app-blp'
+let g:netrw_dirhist_3='/Users/konrad/Projects/blp/docuclerk-app-blp/src/components2/organisms/the_timer'
+let g:netrw_dirhist_2='/Users/konrad/Projects/blp/docuclerk-app-blp/src/components2/molecules/base_single_select'
+let g:netrw_dirhist_1='/Users/konrad/Projects/blp/docuclerk-app-blp/src/components2/atoms/base_modal'
+let g:netrw_dirhist_0='/Users/konrad/Projects/blp/docuclerk-app-blp/src/components2/organisms/the_timer'
+let g:netrw_dirhist_9='/Users/konrad/Projects/blp/docuclerk-app-blp/src/components2/atoms/base_tooltip'

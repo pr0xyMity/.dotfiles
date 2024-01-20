@@ -1,0 +1,1 @@
+{"secondary_sources":[],"schema_version":"1.1","links":{"bin":{"emmet-language-server":"node_modules\/.bin\/emmet-language-server"},"opt":{},"share":{}},"name":"emmet-language-server","metrics":{"start_time":1693904817553,"completion_time":1693904818641},"primary_source":{"type":"registry+v1","id":"pkg:npm\/%40olrtg\/emmet-language-server@2.1.0"}}

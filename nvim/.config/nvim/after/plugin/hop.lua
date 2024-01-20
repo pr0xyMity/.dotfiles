@@ -1,1 +1,1 @@
-vim.keymap.set("n", "f", "<cmd> HopWord<CR>")
+vim.keymap.set("n", "<leader>jf", "<cmd> HopWord<CR>")

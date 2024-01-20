@@ -1,0 +1,6 @@
+[INFO  Tue Sep  5 11:06:41 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=tailwindcss-language-server) {}
+[INFO  Tue Sep  5 11:06:43 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=tailwindcss-language-server)
+[INFO  Tue Sep  5 11:06:51 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=eslint-lsp) {}
+[INFO  Tue Sep  5 11:06:54 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=eslint-lsp)
+[INFO  Tue Sep  5 11:06:57 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=emmet-language-server) {}
+[INFO  Tue Sep  5 11:06:58 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=emmet-language-server)
