@@ -1,0 +1,17 @@
+live_config_reload = true
+
+[font]
+size = 18.0
+
+[font.normal]
+family = "SFMono Nerd Font"
+style = "Regular"
+
+[window]
+decorations = "buttonless"
+dynamic_padding = false
+opacity = 0.9
+
+[window.padding]
+x = 18
+y = 20
